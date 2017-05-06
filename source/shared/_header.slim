@@ -1,1 +1,7 @@
-h1 = t 'navigation.title'
+header
+  .content
+    ul
+      - t('navigation.header.links').each do |id, navigation|
+        li
+          = link_to navigation[:url]
+            = navigation[:title]

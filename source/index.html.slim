@@ -1,1 +1,29 @@
-h1 = t 'navigation.title'
+.wrapper
+  .content
+    h1 = t 'hero.home.title'
+    p = t 'hero.home.subtitle'
+    = link_to t 'ctas.tutorial.url'
+      = t 'ctas.tutorial.title'
+    = link_to t 'ctas.get-started.url'
+      = t 'ctas.get-started.title'
+      
+.wrapper
+  .content
+    ul
+      - t('features.items').each do |id, features|
+        li
+          = image_tag "features/#{id}.svg", alt: "Komponents #{id}"
+          p
+            = features[:title]
+            
+.wrapper
+  .content
+    iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/UD3Zd20uSsk?rel=0&controls=0&showinfo=0" width="560" 
+
+.wrapper
+  .content
+    h2 = t 'incentive.build'
+    = link_to t 'ctas.tutorial.url'
+      = t 'ctas.tutorial.title'
+    = link_to t 'ctas.get-started.url'
+      = t 'ctas.get-started.title'

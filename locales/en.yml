@@ -1,3 +1,115 @@
 en:
   navigation:
-    title: hello
+    header:
+      links:
+        home:
+          title: Komponents
+          url: ../
+        docs:
+          title: Docs
+          url: docs
+        examples:
+          title: Examples
+          url: examples
+        tutorial:
+          title: Tutorial
+          url: tutorial
+        community:
+          title: Community
+          url: community
+        blog:
+          title: Blog
+          url: blog
+        clone-download:
+          title: Clone or download
+          url: "#"
+    footer:
+      docs:
+        title: Docs
+        links:
+          quick-start:
+            title: Quick Start
+            url: "#"
+          tutorial:
+            title: Tutorial
+            url: "#"
+          examples:
+            title: Examples
+            url: "#"
+      community:
+        title: Community
+        links:
+          github:
+            title: Github
+            url: "#"
+          slack:
+            title: Slack
+            url: "#"
+          twitter:
+            title: Twitter
+            url: "#"
+      freshos:
+        title: freshOS
+        links:
+          stevia:
+            title: Stevia
+            url: "#"
+          then:
+            title: Then
+            url: "#"
+          ws:
+            title: WS
+            url: "#"
+      more:
+        title: More
+        links:
+          blog:
+            title: Blog
+            url: "#"
+          changelog:
+            title: Changelog
+            url: "#"
+          contact:
+            title: Contact
+            url: "#"
+      about:
+        stars:
+          title: 36 stars
+          url: "#"
+        muxu-muxu:
+          title: Proudly supported by Muxu.Muxu
+          url: "#"
+        version: 2.3
+
+  ctas:
+    tutorial:
+      title: Take the Tutorial
+      url: "#"
+    get-started:
+      title: Get Started
+      url: "#"
+
+  hero:
+    home:
+      title: Komponents
+      subtitle: |
+        Komponents is a Swift framework for building component-oriented interfaces.
+        Because it's unfair to need javascript to enjoy Components !
+
+  features:
+    items:
+      swift:
+        title: |
+          Komponents is made for pure Swift, no JS, no XML
+      uikit:
+        title: |
+          Can be used Incrementally in your classic UIKit App
+      autolayout:
+        title: |
+          Can use Autolayout or any autolayout lib for the layout
+      hot-reload:
+        title: |
+          Supports Hot Reload with injectionForXcode
+
+  incentive:
+    build: Build amazing apps now

@@ -1,0 +1,40 @@
+footer
+  .content
+    ul
+      li
+        h3 = t 'navigation.footer.docs.title'
+        ul
+          - t('navigation.footer.docs.links').each do |id, navigation|
+            li
+              = link_to navigation[:url]
+                = navigation[:title]
+      li
+        h3 = t 'navigation.footer.community.title'
+        ul
+          - t('navigation.footer.community.links').each do |id, navigation|
+            li
+              = link_to navigation[:url]
+                = navigation[:title]
+
+      li
+        h3 = t 'navigation.footer.freshos.title'
+        ul
+          - t('navigation.footer.freshos.links').each do |id, navigation|
+            li
+              = link_to navigation[:url]
+                = navigation[:title]
+                
+      li
+        h3 = t 'navigation.footer.more.title'
+        ul
+          - t('navigation.footer.more.links').each do |id, navigation|
+            li
+              = link_to navigation[:url]
+                = navigation[:title]
+    
+    .about
+      = link_to t 'navigation.footer.about.stars.url'
+        = t 'navigation.footer.about.stars.title'
+      = link_to t 'navigation.footer.about.muxu-muxu.url'
+        = t 'navigation.footer.about.muxu-muxu.title'
+      span = t 'navigation.footer.about.version'
