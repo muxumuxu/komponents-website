@@ -43,8 +43,10 @@ body
     list-style: none
 
 .content
-  max-width: 940px
+  max-width: 900px
   margin: 0 auto
+  padding-right: 20px
+  padding-left: 20px
 
 /* align */
 
@@ -74,13 +76,16 @@ body
 /* padding */
 
 .padding-m
-  padding: $padding-m
+  padding-top: $padding-m
+  padding-bottom: $padding-m
 
 .padding-s
-  padding: $padding-s
+  padding-top: $padding-s
+  padding-bottom: $padding-s
 
 .padding-xs
-  padding: $padding-xs
+  padding-top: $padding-xs
+  padding-bottom: $padding-xs
 
 /* background */
 
@@ -140,8 +145,7 @@ header
 .video-demo
   position: relative
   iframe
-    width: 940px
-    height: 529px
+    max-width: 100%
 
 footer
   ul
@@ -150,6 +154,7 @@ footer
         margin: 0 0 40px
         li
           margin: 0 0 10px
+          min-width: 210px
           a
             font-weight: 300
             text-decoration: none
@@ -163,3 +168,28 @@ footer
       text-decoration: none
       &:hover
         opacity: .8
+
+@media screen and (max-width: 940px)
+  .flex
+    -webkit-flex-wrap: wrap
+    flex-wrap: wrap
+    li
+      margin-bottom: 20px
+  body
+    h1
+      font-weight: 300
+      font-size: 30px
+      margin: 20px 0
+      + p
+        opacity: 0.7
+        font-weight: 300
+        font-size: 20px
+        line-height: 28px
+        color: $color-dark
+    h2
+      font-weight: 300
+      font-size: 30px
+      margin: 20px 0 40px
+
+  header
+    display: none
