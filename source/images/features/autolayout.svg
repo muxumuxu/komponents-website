@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-730.000000, -804.000000)">
+            <g id="cards" transform="translate(0.000000, 664.000000)">
+                <g id="item" transform="translate(730.000000, 140.000000)">
+                    <g id="icon">
+                        <rect stroke="#FFFFFF" opacity="0.300000012" x="0.5" y="0.5" width="59" height="59" rx="16"></rect>
+                        <rect stroke="#FFFFFF" x="20.5" y="20.5" width="19" height="19" rx="5"></rect>
+                        <path d="M43,30 L56,30 L56,28 L57,28 L57,33 L56,33 L56,31 L43,31 L43,33 L42,33 L42,28 L43,28 L43,30 Z" fill-opacity="0.3" fill="#FFFFFF"></path>
+                        <path d="M4,30 L17,30 L17,28 L18,28 L18,33 L17,33 L17,31 L4,31 L4,33 L3,33 L3,28 L4,28 L4,30 Z" fill-opacity="0.3" fill="#FFFFFF"></path>
+                        <path d="M4.5,29.5 L17.5,29.5 L17.5,27.5 L18.5,27.5 L18.5,32.5 L17.5,32.5 L17.5,30.5 L4.5,30.5 L4.5,32.5 L3.5,32.5 L3.5,27.5 L4.5,27.5 L4.5,29.5 Z M43.5,29.5 L56.5,29.5 L56.5,27.5 L57.5,27.5 L57.5,32.5 L56.5,32.5 L56.5,30.5 L43.5,30.5 L43.5,32.5 L42.5,32.5 L42.5,27.5 L43.5,27.5 L43.5,29.5 Z" id="Combined-Shape" fill-opacity="0.3" fill="#FFFFFF" transform="translate(30.500000, 30.000000) rotate(-270.000000) translate(-30.500000, -30.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

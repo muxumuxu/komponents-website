@@ -1,14 +1,11 @@
 .wrapper
-  .content
+  .content.padding-m
     h1 = t 'hero.home.title'
     p = t 'hero.home.subtitle'
-    = link_to t 'ctas.tutorial.url'
-      = t 'ctas.tutorial.title'
-    = link_to t 'ctas.get-started.url'
-      = t 'ctas.get-started.title'
+    = partial 'shared/ctas-welcome'
       
-.wrapper
-  .content
+.wrapper.background-dark-lighter
+  .content.padding-m.color-white
     ul
       - t('features.items').each do |id, features|
         li
@@ -16,14 +13,11 @@
           p
             = features[:title]
             
-.wrapper
-  .content
+.wrapper.background-dark
+  .content.padding-m
     iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/UD3Zd20uSsk?rel=0&controls=0&showinfo=0" width="560" 
 
-.wrapper
-  .content
+.wrapper.background-brand.color-white
+  .content.padding-m
     h2 = t 'incentive.build'
-    = link_to t 'ctas.tutorial.url'
-      = t 'ctas.tutorial.title'
-    = link_to t 'ctas.get-started.url'
-      = t 'ctas.get-started.title'
+    = partial 'shared/ctas-welcome'
