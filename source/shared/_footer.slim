@@ -1,5 +1,5 @@
 footer.background-dark
-  .content.color-white
+  .content.padding-s.color-white
     ul.flex
       li
         h3 = t 'navigation.footer.docs.title'
@@ -32,7 +32,7 @@ footer.background-dark
               = link_to navigation[:url]
                 = navigation[:title]
     
-    .about
+    .about.padding-xs.flex
       = link_to t 'navigation.footer.about.stars.url'
         = t 'navigation.footer.about.stars.title'
       = link_to t 'navigation.footer.about.muxu-muxu.url'
