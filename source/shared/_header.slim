@@ -1,7 +1,8 @@
 header
   .content
-    ul
-      - t('navigation.header.links').each do |id, navigation|
-        li
-          = link_to navigation[:url]
-            = navigation[:title]
+    nav
+      ul.flex
+        - t('navigation.header.links').each do |id, navigation|
+          li
+            = link_to navigation[:url]
+              = navigation[:title]

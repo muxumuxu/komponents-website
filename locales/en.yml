@@ -94,7 +94,7 @@ en:
       title: Komponents
       subtitle: |
         Komponents is a Swift framework for building component-oriented interfaces.
-        Because it's unfair to need javascript to enjoy Components !
+        <br/>Because it's unfair to need javascript to enjoy Components !
 
   features:
     items:
