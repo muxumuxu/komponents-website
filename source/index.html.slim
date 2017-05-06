@@ -1,5 +1,6 @@
 .wrapper
-  .content.padding-m
+  .content.padding-m.center
+    = image_tag "logo-komponents.svg", alt: "Logo Komponents"
     h1 = t 'hero.home.title'
     p = t 'hero.home.subtitle'
     = partial 'shared/ctas-welcome'
@@ -17,7 +18,7 @@
   .content.padding-m
     iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/UD3Zd20uSsk?rel=0&controls=0&showinfo=0" width="560" 
 
-.wrapper.background-brand.color-white
-  .content.padding-m
+.wrapper.background-brand
+  .content.padding-m.color-white.center
     h2 = t 'incentive.build'
     = partial 'shared/ctas-welcome'
