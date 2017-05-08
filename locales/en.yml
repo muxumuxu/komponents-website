@@ -7,47 +7,47 @@ en:
           url: ../
         docs:
           title: Docs
-          url: docs
-        examples:
-          title: Examples
-          url: examples
+          url: "https://github.com/freshOS/Komponents"
+        #examples:
+          #title: Examples
+          #url: examples
         tutorial:
           title: Tutorial
-          url: tutorial
+          url: "https://github.com/freshOS/Komponents"
         community:
           title: Community
-          url: community
+          url: "https://github.com/freshOS/Komponents"
         blog:
           title: Blog
           url: blog
         clone-download:
           title: Clone or download
-          url: "#"
+          url: "https://github.com/freshOS/Komponents"
     footer:
       docs:
         title: Docs
         links:
           quick-start:
             title: Quick Start
-            url: "#"
+            url: "https://github.com/freshOS/Komponents"
           tutorial:
             title: Tutorial
-            url: "#"
+            url: "https://github.com/freshOS/Komponents"
           examples:
             title: Examples
-            url: "#"
+            url: "https://github.com/freshOS/Komponents"
       community:
         title: Community
         links:
           github:
             title: Github
-            url: "#"
+            url: "https://github.com/freshOS/Komponents"
           slack:
             title: Slack
-            url: "#"
+            url: "https://github.com/freshOS/Komponents"
           twitter:
             title: Twitter
-            url: "#"
+            url: "https://github.com/freshOS/Komponents"
       freshos:
         title: freshOS
         links:
@@ -65,29 +65,29 @@ en:
         links:
           blog:
             title: Blog
-            url: "#"
+            url: "https://github.com/freshOS/Komponents"
           changelog:
             title: Changelog
-            url: "#"
+            url: "https://github.com/freshOS/Komponents"
           contact:
             title: Contact
-            url: "#"
+            url: "https://github.com/freshOS/Komponents"
       about:
         stars:
           title: 36 stars
-          url: "#"
+          url: "https://github.com/freshOS/Komponents"
         muxu-muxu:
           title: Proudly supported by Muxu.Muxu
-          url: "#"
+          url: "https://muxumuxu.com/"
         version: 2.3
 
   ctas:
     tutorial:
       title: Take the Tutorial
-      url: "#"
+      url: "https://github.com/freshOS/Komponents"
     get-started:
       title: Get Started
-      url: "#"
+      url: "https://github.com/freshOS/Komponents/blob/master/README.md"
 
   hero:
     home:
